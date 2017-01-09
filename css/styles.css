@@ -665,6 +665,7 @@ nav ul li a.active {
     color: #929da5;
     font-size: 14px;
     word-spacing: 2px;
+    text-align: left;
 }
 .carousel-content li{
   color: #929da5;
@@ -729,31 +730,6 @@ nav ul li a.active {
 }
 .text{
   padding-left: 15px;
-}
-.button.solid-color {
-    background-color: #63c6ae;
-    padding: 15px 40px;
-    border-radius: 3px;
-    font-weight: 600;
-    font-size: 16px;
-    color: #fff;
-    margin-right: 15px;
-}
-.button.solid-color:hover {
-    background-color: #929da5;
-    text-decoration: none;
-}
-.button.extra-color {
-    background-color: #455357;
-    padding: 15px 40px;
-    border-radius: 3px;
-    font-weight: 600;
-    font-size: 16px;
-    color: #fff;
-}
-.button.extra-color:hover {
-    background-color: #929da5;
-    text-decoration: none;
 }
 .divider {
     height: 25px;
