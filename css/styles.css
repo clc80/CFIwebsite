@@ -717,6 +717,31 @@ nav ul li a.active {
     padding: 20px 0 80px;
     border-top: solid 1px #e3e3e3;
 }
+.button.solid-color {
+    background-color: #63c6ae;
+    padding: 15px 40px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 15px;
+}
+.button.solid-color:hover {
+    background-color: #929da5;
+    text-decoration: none;
+}
+.button.extra-color {
+    background-color: #455357;
+    padding: 15px 40px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+.button.extra-color:hover {
+    background-color: #929da5;
+    text-decoration: none;
+}
 .text-img img {
     width: 100%;
 }
@@ -925,4 +950,34 @@ footer h2 {
 .banner .dots li.active {
     background: #fff;
     opacity: 1;
+}
+#contact h2 {
+	font-size: 36px;
+}
+#contact a {
+	text-decoration: none;
+	color: #0d2235;
+	font-weight: 300;
+	font-size: 28px
+}
+#contact ul {
+	list-style: none;
+}
+
+#contact ul li{
+	display: inline-block;
+}
+
+#contact ul img {
+	padding-right: 48px;
+}
+/************** ICONS  ****************/
+.fa-envelope{
+	color: #bc0203;
+	padding: 0 10px 0 115px;
+}
+
+.fa-twitter, .fa-linkedin, .fa-github, .fa-instagram{
+	color: #242a2c;
+	padding-right: 48px;
 }

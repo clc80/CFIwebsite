@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Contact Claudia Maciel-Contreras</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="freecontactformvalidation.js"></script>
+    <script>
+        required.add('Full_Name', 'NOT_EMPTY', 'Full Name');
+        required.add('Email_Address', 'EMAIL', 'Email Address');
+        required.add('Your_Message', 'NOT_EMPTY', 'Your Message');
+        required.add('AntiSpam', 'NOT_EMPTY', 'Anti-Spam Question');
+    </script>
+    <link rel="stylesheet" type="text/css" href="freecontactform.css">
+    <!-- FONT AWESOME-->
+    <script src="https://use.fontawesome.com/db44b1b262.js"></script>
+</head>
+
+<body>
+    <header class="clearfix">
+        <div class="logo col-md-3">
+            <h2 class="logo-text">CFI CONTRERAS</h2></div>
+        <nav class="clearfix">
+            <ul class="clearfix">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="introFlight.html">Intro Flight</a></li>
+                <li><a href="flightTraining.html">Flight Training</a></li>
+                <li><a href="#">Pictures</a></li>
+                <li><a href="contact.html" class="active last">contact</a></li>
+            </ul>
+        </nav>
+        <div class="pullcontainer">
+            <a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
+        </div>
+    </header>
+    <div class="h2-wrap-intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="standard-block">Contact Me</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-inter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form name="freecontactform" method="post" action="freecontactformprocess.php" onsubmit="return validate.check(this)">
+                        <table width="400px" class="freecontactform">
+                            <tr>
+                                <td colspan="2">
+
+                                    <div class="freecontactformheader">Contact Me Form</div>
+
+                                    <div class="freecontactformmessage">Fields marked with <span class="required_star"> * </span> are mandatory.</div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <label for="Full_Name" class="required">Full Name<span class="required_star"> * </span></label>
+                                </td>
+                                <td valign="top">
+                                    <input type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:230px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <label for="Email_Address" class="required">Email Address<span class="required_star"> * </span></label>
+                                </td>
+                                <td valign="top">
+                                    <input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:230px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <label for="Telephone_Number" class="not-required">Telephone Number</label>
+                                </td>
+                                <td valign="top">
+                                    <input type="text" name="Telephone_Number" id="Telephone_Number" maxlength="100" style="width:230px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <label for="Your_Message" class="required">Your Message<span class="required_star"> * </span></label>
+                                </td>
+                                <td valign="top">
+                                    <textarea style="width:230px;height:160px" name="Your_Message" id="Your_Message" maxlength="2000"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align:center">
+                                    <div class="antispammessage">
+                                        To help prevent automated spam, please answer this question
+                                        <br /><br />
+                                        <div class="antispamquestion">
+                                            <span class="required_star"> * </span> Using only numbers, what is 10 plus 15? &nbsp;
+                                            <input type="text" name="AntiSpam" id="AntiSpam" maxlength="100" style="width:30px">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align:center">
+                                    <br /><br />
+                                    <input class="button solid-color" type="submit" value=" Submit Form " style="width:200px;height:40px">
+                                    <br /><br />
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="h2-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" id="contact">
+                    <h2 class="standard-block">Or, Find Me on the Interwebs.</h2>
+                    <ul>
+
+                        <li><a href="https://www.instagram.com/clc_80/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+                        <li><a href="https://github.com/clc80" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+
+                        <li><a href="https://www.linkedin.com/in/clcontreras" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                        <li><a href="https://twitter.com/clc_80" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shadow"></div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h2>CFI CONTRERAS</h2>
+                </div>
+                <div class="col-md-5">
+                    <p>People have been dreaming of flight for over a 1000 years, but have only been able to make that dream come true for about the last 100 years. <strong>Make your dream come true today and start flying!</strong><br /><br />Contact: <a
+                            href="mail to: cficontreras@icloud.com">cficontreras@icloud.com</a> or call (831)776-9972 any day of the week.</p>
+                </div>
+                <div class="col-md-3">
+                    <p>I will be glad to answer your questions over the phone, or to meet with you for free to discuss your training needs and explain my syllabus, training handouts, videos, and teaching methods.</p>
+                </div>
+                <div class="col-md-2">
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="introFlight.html">Intro Flight</a></li>
+                        <li><a href="flightTraining.html">Flight Training</a></li>
+                        <li><a href="#">Pictures</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/unslider.min.js"></script>
+</body>
+
+</html>
